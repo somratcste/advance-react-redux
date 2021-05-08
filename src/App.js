@@ -9,7 +9,7 @@ function App() {
 
     return (
         <Layout>
-            <Cart />
+            {showCart && <Cart />}
             <Products />
         </Layout>
     );
